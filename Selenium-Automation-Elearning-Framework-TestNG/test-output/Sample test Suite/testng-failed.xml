@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
+  <test name="Sample test(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.RTTC_003">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="validLoginTest"/>
+          <include name="setUp"/>
+          <include name="Afterclass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RTTC_003 -->
+      <class name="com.training.sanity.tests.RTTC_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Afterclass"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RTTC_001 -->
+      <class name="com.training.sanity.tests.RTTC_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validLoginTest"/>
+          <include name="Afterclass"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RTTC_002 -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Sample test Suite] -->

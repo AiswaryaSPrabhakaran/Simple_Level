@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample test Suite" duration-ms="110927" started-at="2019-06-19T08:24:36Z" finished-at="2019-06-19T08:26:27Z">
+    <groups>
+    </groups>
+    <test name="Sample test" duration-ms="42002" started-at="2019-06-19T08:24:36Z" finished-at="2019-06-19T08:25:18Z">
+      <class name="com.training.sanity.tests.RTTC_001">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_001@5e5792a0]" name="setUpBeforeClass" is-config="true" duration-ms="19" started-at="2019-06-19T13:54:36Z" finished-at="2019-06-19T13:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_001@5e5792a0]" name="setUp" is-config="true" duration-ms="14569" started-at="2019-06-19T13:54:37Z" finished-at="2019-06-19T13:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_001@5e5792a0]" name="validLoginTest" duration-ms="21116" started-at="2019-06-19T13:54:51Z" finished-at="2019-06-19T13:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_001@5e5792a0]" name="tearDown" is-config="true" duration-ms="2688" started-at="2019-06-19T13:55:12Z" finished-at="2019-06-19T13:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Afterclass()[pri:0, instance:com.training.sanity.tests.RTTC_001@5e5792a0]" name="Afterclass" is-config="true" duration-ms="3567" started-at="2019-06-19T13:55:15Z" finished-at="2019-06-19T13:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- com.training.sanity.tests.RTTC_001 -->
+    </test> <!-- Sample test -->
+    <test name="Sample test_1" duration-ms="27996" started-at="2019-06-19T08:25:19Z" finished-at="2019-06-19T08:25:47Z">
+      <class name="com.training.sanity.tests.RTTC_002">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_002@1794d431]" name="setUpBeforeClass" is-config="true" duration-ms="3" started-at="2019-06-19T13:55:19Z" finished-at="2019-06-19T13:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_002@1794d431]" name="setUp" is-config="true" duration-ms="12037" started-at="2019-06-19T13:55:19Z" finished-at="2019-06-19T13:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_002@1794d431]" name="validLoginTest" duration-ms="11092" started-at="2019-06-19T13:55:31Z" finished-at="2019-06-19T13:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="Afterclass()[pri:0, instance:com.training.sanity.tests.RTTC_002@1794d431]" name="Afterclass" is-config="true" duration-ms="4861" started-at="2019-06-19T13:55:42Z" finished-at="2019-06-19T13:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- com.training.sanity.tests.RTTC_002 -->
+    </test> <!-- Sample test_1 -->
+    <test name="Sample test_3" duration-ms="40853" started-at="2019-06-19T08:25:47Z" finished-at="2019-06-19T08:26:27Z">
+      <class name="com.training.sanity.tests.RTTC_003">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_003@4667ae56]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2019-06-19T13:55:47Z" finished-at="2019-06-19T13:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_003@4667ae56]" name="setUp" is-config="true" duration-ms="11842" started-at="2019-06-19T13:55:47Z" finished-at="2019-06-19T13:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_003@4667ae56]" name="validLoginTest" duration-ms="23588" started-at="2019-06-19T13:55:58Z" finished-at="2019-06-19T13:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="Afterclasss()[pri:0, instance:com.training.sanity.tests.RTTC_003@4667ae56]" name="Afterclasss" is-config="true" duration-ms="5414" started-at="2019-06-19T13:56:22Z" finished-at="2019-06-19T13:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclasss -->
+      </class> <!-- com.training.sanity.tests.RTTC_003 -->
+    </test> <!-- Sample test_3 -->
+  </suite> <!-- Sample test Suite -->
+</testng-results>
